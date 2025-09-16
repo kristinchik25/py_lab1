@@ -64,11 +64,23 @@ print(x == y)
 
 
 ## Задание 2. 
-````
+Вычислите значение следующего выражения (аргументы - целые числа и
+вводятся с клавиатуры):
+<img width="287" height="117" alt="image" src="https://github.com/user-attachments/assets/ca088704-7d54-4ac7-9a59-cb36d09a256e" />
 
 ````
+x = int(input("x="))
+y = int(input("y="))
+z = int(input("z="))
+f = (((x**5+7)/(abs(-6)*y)))**(1/3) / (7-z%y)
+print(round(f,3))
+````
+## Результат
+<img width="176" height="103" alt="image" src="https://github.com/user-attachments/assets/3809c0df-dd2e-4c32-8700-9e0ad3b74c51" />
+
 
 ## Задание 3. 
+
 ````
 ````
 ## Результат
